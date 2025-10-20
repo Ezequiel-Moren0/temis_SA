@@ -154,38 +154,15 @@ header{
 
 
 /* --- Responsive --- */
-@media (max-width: 768px) {
-  .chat-input-contenedor {
-    width: 100%;
-    padding: 10px;
-  }
 
-  .chat-input {
-    font-size: 14px;
-    padding: 8px 12px;
-  }
 
-  .send-btn {
-    padding: 8px 16px;
-    font-size: 16px;
-  }
+@media (max-width: 700px) {
+header {
+    flex-direction: column;
+    align-items: flex-start; 
+    padding: 15px;
 }
-
-@media (max-width: 480px) {
-  .frase-encabezado h2 {
-    font-size: 32px;
-  }
-
-  .frase-encabezado p {
-    font-size: 16px;
-  }
-
-  .chat-input-contenedor {
-    padding: 12px;
-  }
-
-  .send-btn {
-    padding: 8px 14px;
-    font-size: 14px;
-  }
+.logo {
+    margin-bottom: 10px;
+}
 }
